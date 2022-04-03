@@ -1,0 +1,505 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+html {
+  width: 100%;
+  font-size: 18px;
+}
+body {
+  width: 100%;
+  font-family: "Cinzel", serif;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  clear: both;
+  height: 10.5vh;
+}
+nav {
+  /* border: 2px solid black; */
+  clear: both;
+  height: 15vh;
+}
+.navbar {
+  clear: both;
+  height: 15vh;
+  /* border: 2px solid red; */
+}
+.navlist {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  /* border: 2px solid orange; */
+  width: 50%;
+  margin: 1% 0;
+  float: left;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+
+.toplogo {
+  height: 10vh;
+  position: relative;
+  top: 30%;
+}
+
+.mainlogo {
+  /* border: 2px solid blueviolet; */
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin: 1% 0;
+}
+.book {
+  /* border: 2px solid green; */
+  width: 25%;
+  float: right;
+  text-align: center;
+  height: 15vh;
+  font-family: "Quicksand", sans-serif;
+  margin: 5vh 0;
+  height: 5vh;
+}
+input {
+  width: 75%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* PAGE ONE MAIN */
+
+h1 {
+  font-size: 3rem;
+  margin: 5% 0 0 0;
+  padding: 2% 0 0 0;
+}
+.onetop {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.mainone {
+  /* border: 5px solid darkcyan; */
+}
+.onetop {
+  /* border: 2px solid black; */
+  padding-left: 5%;
+}
+.onebottom {
+  /* border: 2px dashed blue; */
+  color: white;
+}
+.buttonone {
+  background: black;
+  color: white;
+  padding: 1.5% 2%;
+  font-size: 0.75rem;
+}
+.mainmid {
+  /* border: 2px solid saddlebrown; */
+  background: black;
+  width: 18%;
+  text-align: left;
+  padding: 1.5%;
+  margin-left: 5%;
+}
+.buttontwo {
+  background: white;
+  padding: 4%;
+  font-size: 0.75rem;
+  border-radius: 5%;
+}
+.mainbottom {
+  /* border: 2px solid darkblue; */
+  float: left;
+  text-align: center;
+}
+.bottomsection {
+  /* border: 2px solid orange; */
+  width: 33.33%;
+  float: left;
+  padding: 0 2%;
+  font-family: "Quicksand", sans-serif;
+}
+
+.bottomsection img {
+  height: 35vh;
+  margin: 4vh 0 0 0;
+  border-radius: 3%;
+}
+/* PAGE TWO LAYOUT */
+
+.pagetwo {
+  /* border: 2px solid rgb(22, 7, 116); */
+  float: left;
+  line-height: 1.5;
+  background: rgb(233, 232, 232);
+}
+.pagetwo > section {
+  float: left;
+}
+
+.ptwoleft {
+  /* border: 2px solid deeppink; */
+  width: 50%;
+  padding: 0.5% 5% 0 5%;
+}
+h3 {
+  padding: 2% 0 0 0;
+}
+.ptworight {
+  /* border: 2px solid rebeccapurple; */
+  /* width: 50%; */
+}
+
+.buttonthree {
+  background: black;
+  color: white;
+  padding: 2% 2.25%;
+  font-size: 0.75rem;
+}
+
+.pagetwo > .ptwoleft > h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* PAGE THREE HAIRSTYLES */
+
+.hairstyle {
+  text-align: center;
+}
+.hairdes > section h5,
+.hairdes > section h5 + span {
+  color: white;
+}
+.hairdes {
+  width: 15%;
+}
+.hairperson {
+  background: black;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* PAGE FOUR */
+
+.mainfour {
+  /* border: 2px solid black; */
+  display: flex;
+  padding: 3% 5% 3% 5%;
+}
+.mainfourone {
+  height: 75vh;
+  width: 150vw;
+}
+.shortbox {
+  height: 33.33%;
+  /* border: 2px solid blue; */
+  clear: both;
+}
+.tallbox {
+  height: 66.66%;
+  /* border: 2px solid red; */
+  clear: both;
+}
+
+.mainone {
+  background-image: url(https://images.unsplash.com/photo-1470259078422-826894b933aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80);
+  background-position-y: 55%;
+  background-position-x: 0%;
+  min-width: 700px;
+}
+
+/* .tallbox {
+  background-image: url(https://images.unsplash.com/photo-1583843364289-0d1b2978874c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+  background-position: center;
+  background-position: 50% 25%;
+} */
+
+.tallimg {
+  height: 50vh;
+}
+
+.smallimg {
+  height: 25vh;
+}
+
+.midTopImg {
+  height: 50vh;
+  position: relative;
+  left: 5%;
+}
+
+.rightBottom {
+  height: 50vh;
+}
+
+/* Hover on links  */
+
+a:hover {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Media Queries  */
+
+@media screen and (max-width: 466px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    clear: both;
+  }
+
+  .toplogo {
+    /* width: 100vw; */
+    height: 40vh;
+    position: relative;
+    top: -200%;
+    left: 15vw;
+  }
+  ul,
+  .book {
+    display: none;
+  }
+  .mainone {
+    margin-top: 27%;
+    width: 100vw;
+  }
+  h1 {
+    font-size: 2rem;
+    /* text-align: center; */
+  }
+  .onetop {
+    width: 100vw;
+  }
+  .onebottom {
+    width: 100vw;
+  }
+
+  .bottomsection {
+    width: 90vw;
+    margin: 1rem;
+  }
+
+  .mainmid {
+    /* border: 2px solid saddlebrown; */
+    background: black;
+    width: 83vw;
+    text-align: left;
+    padding: 1%;
+    margin-left: 5%;
+  }
+  .pagetwo {
+    display: block;
+  }
+
+  .mainlogo {
+    width: 10%;
+    height: 25px;
+  }
+  .navlist {
+    font-size: 0.75rem;
+    padding: 1% 0 0 1%;
+  }
+  ul {
+    width: 75%;
+  }
+  .book {
+    width: 15%;
+    margin: 2.5% 0;
+  }
+  #topRightButton {
+    font-size: 0.6rem;
+  }
+  .mainbottom {
+    display: block;
+  }
+  .pagetwo {
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-x: hidden;
+    width: 100vw;
+    clear: both;
+  }
+  video {
+    width: 100%;
+  }
+  .mainfour {
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 0%;
+    clear: both;
+    margin: 0 0 0 20%;
+  }
+
+  .mainfourone > img {
+    min-height: 100%;
+  }
+
+  .midTopImg {
+    margin-right: -10%;
+  }
+  .rightBottom,
+  .smallimg,
+  .tallimg {
+    width: 61.5vw;
+  }
+  .tallbox {
+    width: 59vw;
+  }
+  .ptwoleft {
+    width: 100%;
+  }
+
+  /* }
+.mainfourone > * { 
+justify-content: center;
+}
+.smallimg{
+  height: 30vh;
+}
+.tallimg, .tallbox {
+  margin-top: 12%;
+}
+.smallimg, .smallbox{
+  margin: 5% 0 0 0;
+}
+ .midTopImg {
+  margin: 26% 0 0 0 ;
+  display: block;
+} 
+
+body {
+  overflow-x: hidden;
+}
+
+
+/* }
+.shortbox {
+  padding: 15% 0 0 0;
+} */
+
+  /* 
+  .pagetwo {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+  /* align-items: center;
+    overflow-x: hidden;
+  } */
+  /* video {
+    width: 200px;
+  } */
+
+  @media screen and (max-width: 600px) {
+    html {
+      width: 200%;
+    }
+    .mainlogo {
+      width: 10%;
+      height: 25px;
+    }
+    .navlist {
+      font-size: 0.75rem;
+      padding: 1% 0 0 1%;
+    }
+    ul {
+      width: 75%;
+    }
+    .book {
+      width: 15%;
+      margin: 2.5% 0;
+    }
+    #topRightButton {
+      font-size: 0.6rem;
+    }
+    .mainbottom {
+      display: block;
+    }
+    .pagetwo {
+      /* display: flex; */
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: center;
+      overflow-x: hidden;
+    }
+    .pagetwo > section {
+      float: none;
+    }
+    .rightBottom {
+      height: 50vh;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 756px) {
+    /* video {
+      width: 300px;
+    } */
+    .rightBottom {
+      height: 50vh;
+      width: 100%;
+    }
+    .ptwoleft {
+      width: 100%;
+    }
+  }
+  /* @media screen and (min-width: 757px) and (max-width: 1400px) {
+    /* video {
+      width: 700px;
+    } */
+  /* #rightBottom {
+      height: 50vh;
+      width: 54%;
+    } */
+
+  @media screen and (min-width: 757px) and (max-width: 1400px) {
+    .ptworight {
+      width: 100% !important;
+    }
+    .ptwoleft {
+      width: 25%;
+    }
+  }
+}
